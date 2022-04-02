@@ -3,9 +3,11 @@
 }
 .Flexbox-Container{
     display:flex;
+    flex-direction: column;
 }
 .FlexItem-1,.FlexItem-2,.FlexItem-3{
     border: 1px solid black;
-    height: 370px;
+    height: 300px;
     flex: 1 1 auto;
+
 }
