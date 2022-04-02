@@ -1,8 +1,11 @@
 *{
     box-sizing: border-Item;
 }
-
+.Flexbox-Container{
+    display:flex;
+}
 .FlexItem-1,.FlexItem-2,.FlexItem-3{
     border: 1px solid black;
     height: 370px;
+    flex: 1 1 auto;
 }
