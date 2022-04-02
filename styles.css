@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-Item;
+    box-sizing: border-box;
 }
 .Flexbox-Container{
     display:flex;
@@ -8,7 +8,8 @@
 }
 .FlexItem-1,.FlexItem-2,.FlexItem-3{
     border: 1px solid black;
-    /* height: 300px; */
     flex:1 1 auto;
-
 }
+/* .Header-Container{
+    display:inline-block;
+} */
