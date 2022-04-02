@@ -1,15 +1,18 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.Flexbox-Container{
-    display:flex;
-    flex-direction: column;
-    height: 970px;
+.Flexbox-Container {
+  display: flex;
+  flex-direction: column;
+  height: 970px;
 }
-.FlexItem-1,.FlexItem-2,.FlexItem-3{
-    border: 1px solid black;
-    flex:1 1 auto;
+.FlexItem-1,
+.FlexItem-2,
+.FlexItem-3 {
+  border: 1px solid black;
+  flex: 1 1 auto;
 }
-/* .Header-Container{
-    display:inline-block;
-} */
+.Header-Container > h3,
+.Header-Container > a {
+  display: inline-block;
+}
