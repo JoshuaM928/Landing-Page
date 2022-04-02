@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 
-.Flexbox-1,.Flexbox-2{
+.Flexbox-1,.Flexbox-2,.Flexbox-3{
     border: 1px solid black;
     height: 370px;
-    
 }
