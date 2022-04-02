@@ -1,8 +1,8 @@
 *{
-    box-sizing: border-box;
+    box-sizing: border-Item;
 }
 
-.Flexbox-1,.Flexbox-2,.Flexbox-3{
+.FlexItem-1,.FlexItem-2,.FlexItem-3{
     border: 1px solid black;
     height: 370px;
 }
